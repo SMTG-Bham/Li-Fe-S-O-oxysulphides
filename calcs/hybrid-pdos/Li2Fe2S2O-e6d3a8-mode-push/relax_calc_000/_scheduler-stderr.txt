@@ -1,0 +1,17 @@
+Unloading /usr/local/share/epcc-module/epcc-module-loader
+
+Warning: Unloading the epcc-setup-env module will stop many
+modules being available on the system. If you do this by
+accident, you can recover the situation with the command:
+
+	module load /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+
+Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Unloading bolt/0.7
+Loading bolt/0.7
+Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Loading /usr/local/share/epcc-module/epcc-module-loader
+
+Loading epcc-job-env
+  Loading requirement: bolt/0.7
+    /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env

@@ -1,0 +1,32 @@
+TITL LFSO-Li2FeSO-201025-011817-79b019 -0.0035 113.358154 -2.00267927E+003 2.00067 2.47369 5 (Pm) n - 1
+REM
+REM Run started: Sun, 25 Oct 2020 01:25:59 +0000 in /lustre/scratch/uccabz1/launch_tmp/launcher_2020-10-25-01-18-16-090794
+REM CASTEP 20.1 from code version af48c487+ pr-geom-scf-spinfix Tue Jun 2 15:39:59 2020 +0100
+REM Functional Perdew Burke Ernzerhof Relativity Koelling-Harmon Dispersion off
+REM Cut-off 340.0000 eV Grid scale 1.7500 Gmax 16.5316 1/A FBSC none
+REM MP grid 5 3 3 Offset 0.000 0.000 0.000 No. kpts 16 Spacing 0.07
+REM Total runtime: 861.77 s
+REM Overall efficiency: 85.4 %
+REM
+REM
+REM
+REM compiler GCC version 4.9.2
+REM options -cpp -iprefix /lustre/shared/ucl/apps/gcc/4.9.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/ -mtune=corei7 -march=x86-64 -g -Og
+REM COMMAND_LINE
+REM seed -617002135 1310224728 1769213992 1082379723 536237587 -645701562 7016043 1124194823 1985975983 -722197746 -1014184524 1364101210
+REM
+REM S 3|1.8|5|6|7|30:31:32(qc=5)
+REM O 2|1.5|12|13|15|20:21(qc=5)
+REM Li 1|1.3|8|9|10|10U:20(qc=5)
+REM Fe 3|2.2|2.0|1.0|8|9|10|40:41:32(qc=5)
+REM Fe d:4.0 
+REM
+CELL 1.54180    3.20880    6.12561    5.98835   90.00000  105.62144   90.00000
+LATT -1
+SFAC Li O  S  Fe 
+Li     1  0.3719880000000  0.1983860000000  0.1744310000000 1.0  -0.01
+Li     1  0.3719880000000 -0.1983860000000  0.1744310000000 1.0  -0.01
+O      2 -0.4754520000000  0.0000000000000  0.4213660000000 1.0  -0.06
+S      3 -0.2318980000000  0.0000000000000 -0.0739260000000 1.0  -0.11
+Fe     4  0.1319730000000  0.0000000000000 -0.3624380000000 1.0   2.19
+END

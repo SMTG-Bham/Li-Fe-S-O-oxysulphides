@@ -1,0 +1,498 @@
+ ----------------------------------------------------
+    OOO  PPPP  EEEEE N   N M   M PPPP
+   O   O P   P E     NN  N MM MM P   P
+   O   O PPPP  EEEEE N N N M M M PPPP   -- VERSION
+   O   O P     E     N  NN M   M P
+    OOO  P     EEEEE N   N M   M P
+ ----------------------------------------------------
+ running  256 mpi-ranks, with    1 threads/rank
+ distrk:  each k-point on   32 cores,    8 groups
+ distr:  one band on    4 cores,    8 groups
+ vasp.6.2.0 18Jan21 (build Feb  9 2021 11:43:09) complex                         
+ POSCAR found type information on POSCAR FeLiO S 
+ POSCAR found :  4 types and      95 ions
+ scaLAPACK will be used
+ -----------------------------------------------------------------------------
+|                                                                             |
+|               ----> ADVICE to this user running VASP <----                  |
+|                                                                             |
+|     You have a (more or less) 'large supercell' and for larger cells it     |
+|     might be more efficient to use real-space projection operators.         |
+|     Therefore, try LREAL= Auto in the INCAR file.                           |
+|     Mind: For very accurate calculation, you might also keep the            |
+|     reciprocal projection scheme (i.e. LREAL=.FALSE.).                      |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort
+DAV:   1     0.849244793295E+04    0.84924E+04   -0.33728E+05  3904   0.171E+03
+DAV:   2     0.834293126448E+03   -0.76582E+04   -0.70208E+04  3904   0.462E+02
+DAV:   3    -0.392695378000E+03   -0.12270E+04   -0.11627E+04  3904   0.192E+02
+DAV:   4    -0.537756355640E+03   -0.14506E+03   -0.14217E+03  3904   0.495E+01
+DAV:   5    -0.556215393164E+03   -0.18459E+02   -0.18027E+02  3904   0.149E+01
+ gam= 0.000 g(H,U,f)=  0.172E+04 0.139E+04 0.380E+03 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   6    -0.565917316312E+02    0.49962E+03   -0.18027E+02  3904   0.349E+04 0.000E+00
+ gam= 0.000 trial= 0.400  step= 0.183 mean= 0.400
+ gam= 0.156 g(H,U,f)=  0.217E+03 0.309E+03 0.178E+02 ort(H,U,f) = 0.118E+03-0.152E+03 0.158E+02
+CGA:   7    -0.391464546038E+03   -0.33487E+03   -0.31960E+03  3904   0.543E+03-0.188E+02
+ gam= 0.156 trial= 0.389  step= 0.130 mean= 0.389
+ gam= 0.215 g(H,U,f)=  0.567E+02 0.548E+02 0.526E+01 ort(H,U,f) = 0.697E+02 0.489E+02 0.119E+00
+CGA:   8    -0.440345532653E+03   -0.48881E+02   -0.35130E+02  3904   0.117E+03 0.119E+03
+ gam= 0.215 trial= 0.376  step= 0.281 mean= 0.376
+ gam= 0.839 g(H,U,f)=  0.257E+02 0.668E+02 0.539E+01 ort(H,U,f) =-0.162E+02 0.173E+02-0.235E+00
+CGA:   9    -0.460086531790E+03   -0.19741E+02   -0.19962E+02  3904   0.979E+02 0.895E+00
+ gam= 0.839 trial= 0.371  step= 0.120 mean= 0.371
+ gam= 0.691 g(H,U,f)=  0.317E+02 0.331E+02 0.286E+01 ort(H,U,f) =-0.118E+02-0.133E+02-0.336E+01
+CGA:  10    -0.464857875509E+03   -0.47713E+01   -0.59353E+01  3904   0.677E+02-0.285E+02
+ gam= 0.691 trial= 0.359  step= 0.152 mean= 0.359
+ gam= 1.165 g(H,U,f)=  0.291E+02 0.448E+02 0.492E+01 ort(H,U,f) = 0.101E+02-0.159E+02-0.622E+01
+CGA:  11    -0.468155721998E+03   -0.32978E+01   -0.36379E+01  3904   0.788E+02-0.120E+02
+ gam= 1.165 trial= 0.349  step= 0.131 mean= 0.349
+ gam= 1.651 g(H,U,f)=  0.210E+02 0.100E+03 0.867E+01 ort(H,U,f) = 0.121E+02-0.377E+02-0.524E+01
+CGA:  12    -0.470242935430E+03   -0.20872E+01   -0.42607E+01  3904   0.130E+03-0.308E+02
+ gam= 1.651 trial= 0.338  step= 0.064 mean= 0.338
+ gam= 0.356 g(H,U,f)=  0.156E+02 0.282E+02 0.248E+01 ort(H,U,f) =-0.379E+01 0.121E+02 0.959E+00
+CGA:  13    -0.472983004864E+03   -0.27401E+01   -0.25288E+01  3904   0.463E+02 0.929E+01
+ gam= 0.356 trial= 0.324  step= 0.072 mean= 0.324
+ gam= 0.000 g(H,U,f)=  0.155E+02 0.623E+02 0.540E+01 ort(H,U,f) = 0.268E+01-0.374E+02-0.569E+01
+CGA:  14    -0.473432327298E+03   -0.44932E+00   -0.17933E+01  3904   0.832E+02-0.404E+02
+ gam= 0.000 trial= 0.311  step= 0.084 mean= 0.311
+ gam= 0.000 g(H,U,f)=  0.105E+02 0.624E+02 0.616E+01 ort(H,U,f) = 0.455E+01-0.492E+02-0.461E+01
+CGA:  15    -0.474762724517E+03   -0.13304E+01   -0.34920E+01  3904   0.791E+02-0.492E+02
+ gam= 0.000 trial= 0.300  step= 0.078 mean= 0.300
+ gam= 0.000 g(H,U,f)=  0.875E+01 0.481E+02 0.319E+01 ort(H,U,f) = 0.249E+01-0.435E+02-0.231E+01
+CGA:  16    -0.476149073540E+03   -0.13863E+01   -0.30667E+01  3904   0.601E+02-0.433E+02
+ gam= 0.000 trial= 0.289  step= 0.082 mean= 0.289
+ gam= 0.000 g(H,U,f)=  0.626E+01 0.418E+02 0.329E+01 ort(H,U,f) = 0.158E+01-0.310E+02-0.270E+01
+CGA:  17    -0.477185729562E+03   -0.10367E+01   -0.24712E+01  3904   0.514E+02-0.321E+02
+ gam= 0.000 trial= 0.279  step= 0.076 mean= 0.279
+ gam= 0.633 g(H,U,f)=  0.490E+01 0.256E+02 0.202E+01 ort(H,U,f) = 0.118E+01-0.209E+02-0.107E+01
+CGA:  18    -0.478306910117E+03   -0.11212E+01   -0.19629E+01  3904   0.326E+02-0.208E+02
+ gam= 0.633 trial= 0.268  step= 0.398 mean= 0.268
+ gam= 1.048 g(H,U,f)=  0.298E+01 0.268E+02 0.436E+01 ort(H,U,f) =-0.983E+00-0.981E+00-0.348E+00
+CGA:  19    -0.481896941284E+03   -0.35900E+01   -0.38498E+01  3904   0.341E+02-0.231E+01
+ gam= 1.048 trial= 0.275  step= 0.134 mean= 0.275
+ gam= 0.478 g(H,U,f)=  0.255E+01 0.132E+02 0.539E+00 ort(H,U,f) =-0.298E+01-0.105E+01-0.201E-01
+CGA:  20    -0.483133436080E+03   -0.12365E+01   -0.21315E+01  3904   0.163E+02-0.405E+01
+ gam= 0.478 trial= 0.268  step= 0.174 mean= 0.268
+ gam= 0.709 g(H,U,f)=  0.157E+01 0.892E+01 0.107E+01 ort(H,U,f) =-0.636E+00 0.146E+01-0.339E+00
+CGA:  21    -0.484503916622E+03   -0.13705E+01   -0.12491E+01  3904   0.116E+02 0.481E+00
+ gam= 0.709 trial= 0.263  step= 0.511 mean= 0.263
+ gam= 0.846 g(H,U,f)=  0.179E+01 0.748E+01 0.502E+00 ort(H,U,f) =-0.440E+00 0.381E+01 0.154E-01
+CGA:  22    -0.488082813587E+03   -0.35789E+01   -0.30387E+01  3904   0.978E+01 0.338E+01
+ gam= 0.846 trial= 0.276  step= 0.251 mean= 0.276
+ gam= 1.619 g(H,U,f)=  0.228E+01 0.125E+02 0.106E+01 ort(H,U,f) =-0.861E+00 0.876E+00-0.502E+00
+CGA:  23    -0.489683318687E+03   -0.16005E+01   -0.15847E+01  3904   0.158E+02-0.488E+00
+ gam= 1.619 trial= 0.274  step= 0.354 mean= 0.274
+ gam= 0.742 g(H,U,f)=  0.284E+01 0.803E+01 0.877E+00 ort(H,U,f) =-0.147E+01-0.416E+00-0.282E+00
+CGA:  24    -0.492191258331E+03   -0.25079E+01   -0.26629E+01  3904   0.118E+02-0.217E+01
+ gam= 0.742 trial= 0.278  step= 0.164 mean= 0.278
+ gam= 0.540 g(H,U,f)=  0.127E+01 0.458E+01 0.488E+00 ort(H,U,f) =-0.366E+00 0.117E+01-0.317E+00
+CGA:  25    -0.493073235521E+03   -0.88198E+00   -0.83031E+00  3904   0.634E+01 0.482E+00
+ gam= 0.540 trial= 0.273  step= 0.310 mean= 0.273
+ gam= 1.184 g(H,U,f)=  0.176E+01 0.506E+01 0.683E+00 ort(H,U,f) =-0.581E+00 0.840E+00-0.195E+00
+CGA:  26    -0.494097209549E+03   -0.10240E+01   -0.10220E+01  3904   0.751E+01 0.636E-01
+ gam= 1.184 trial= 0.274  step= 0.181 mean= 0.274
+ gam= 0.638 g(H,U,f)=  0.112E+01 0.343E+01 0.233E+00 ort(H,U,f) =-0.316E+00 0.453E+00-0.600E+00
+CGA:  27    -0.494762473608E+03   -0.66526E+00   -0.68492E+00  3904   0.479E+01-0.463E+00
+ gam= 0.638 trial= 0.270  step= 0.154 mean= 0.270
+ gam= 0.965 g(H,U,f)=  0.645E+00 0.344E+01 0.545E+00 ort(H,U,f) =-0.546E-01 0.278E+00-0.304E+00
+CGA:  28    -0.495111815634E+03   -0.34934E+00   -0.34522E+00  3904   0.463E+01-0.801E-01
+ gam= 0.965 trial= 0.264  step= 0.106 mean= 0.264
+ gam= 0.000 g(H,U,f)=  0.115E+01 0.494E+01 0.169E+01 ort(H,U,f) =-0.484E+00-0.872E+00-0.121E+01
+CGA:  29    -0.495231993235E+03   -0.12018E+00   -0.24192E+00  3904   0.778E+01-0.257E+01
+ gam= 0.000 trial= 0.256  step= 0.128 mean= 0.256
+ gam= 0.375 g(H,U,f)=  0.432E+00 0.236E+01 0.132E+00 ort(H,U,f) =-0.303E+00-0.105E+01-0.125E+00
+CGA:  30    -0.495519544094E+03   -0.28755E+00   -0.49801E+00  3904   0.292E+01-0.147E+01
+ gam= 0.375 trial= 0.250  step= 0.114 mean= 0.250
+ gam= 0.309 g(H,U,f)=  0.212E+00 0.669E+00 0.223E-01 ort(H,U,f) = 0.102E+00 0.630E+00-0.122E-02
+CGA:  31    -0.495714170527E+03   -0.19463E+00   -0.13540E+00  3904   0.903E+00 0.731E+00
+ gam= 0.309 trial= 0.243  step= 0.294 mean= 0.243
+ gam= 0.000 g(H,U,f)=  0.517E+00 0.321E+01 0.344E+01 ort(H,U,f) =-0.539E-01-0.121E+00 0.103E+01
+CGA:  32    -0.495911753245E+03   -0.19758E+00   -0.16578E+00  3904   0.717E+01 0.858E+00
+ gam= 0.000 trial= 0.245  step= 0.123 mean= 0.245
+ gam= 0.454 g(H,U,f)=  0.532E+00 0.192E+01 0.800E+00 ort(H,U,f) =-0.424E+00-0.120E+01 0.538E+00
+CGA:  33    -0.496045047146E+03   -0.13329E+00   -0.43954E+00  3904   0.325E+01-0.108E+01
+ gam= 0.454 trial= 0.239  step= 0.256 mean= 0.239
+ gam= 1.267 g(H,U,f)=  0.304E+00 0.934E+00 0.288E+01 ort(H,U,f) =-0.135E+00-0.276E+00-0.204E+00
+CGA:  34    -0.496389006499E+03   -0.34396E+00   -0.35410E+00  3904   0.412E+01-0.616E+00
+ gam= 1.267 trial= 0.240  step= 0.191 mean= 0.240
+ gam= 0.051 g(H,U,f)=  0.430E-01 0.158E+00 0.888E-02 ort(H,U,f) = 0.785E-03 0.464E+00 0.336E-01
+CGA:  35    -0.496665439939E+03   -0.27643E+00   -0.31861E+00  3904   0.210E+00 0.499E+00
+ gam= 0.051 trial= 0.238  step= 0.526 mean= 0.238
+ gam= 1.324 g(H,U,f)=  0.110E+00 0.154E+00 0.141E-01 ort(H,U,f) =-0.411E-01 0.286E-01 0.166E-01
+CGA:  36    -0.496726549257E+03   -0.61109E-01   -0.61966E-01  3904   0.278E+00 0.411E-02
+ gam= 1.324 trial= 0.252  step=-0.033 mean= 0.252
+ BOPT < 0, no correction made
+ gam= 0.000 g(H,U,f)=  0.704E+00 0.968E+00 0.723E-01 ort(H,U,f) =-0.211E-01 0.287E+00 0.172E+00
+CGA:  37    -0.497067144530E+03   -0.34060E+00    0.47457E-02  3904   0.175E+01 0.438E+00
+ gam= 0.000 trial= 0.252  step= 0.178 mean= 0.252
+ gam= 0.441 g(H,U,f)=  0.638E-01 0.143E+00 0.563E+00 ort(H,U,f) = 0.389E-01 0.122E+00-0.174E+00
+CGA:  38    -0.497233260290E+03   -0.16612E+00   -0.15511E+00  3904   0.770E+00-0.134E-01
+ gam= 0.441 trial= 0.248  step= 0.385 mean= 0.248
+ gam= 0.927 g(H,U,f)=  0.255E+00 0.166E+00 0.293E+00 ort(H,U,f) =-0.194E+00 0.177E-01 0.322E+00
+CGA:  39    -0.497390857696E+03   -0.15760E+00   -0.14727E+00  3904   0.714E+00 0.145E+00
+ gam= 0.927 trial= 0.255  step= 0.466 mean= 0.255
+ gam= 0.480 g(H,U,f)=  0.237E+00 0.104E+00 0.145E-02 ort(H,U,f) =-0.112E-01-0.296E-01-0.141E-02
+CGA:  40    -0.497562596085E+03   -0.17174E+00   -0.19773E+00  3904   0.343E+00-0.422E-01
+ gam= 0.480 trial= 0.266  step= 0.333 mean= 0.266
+ gam= 0.212 g(H,U,f)=  0.487E-01 0.238E-01 0.170E-03 ort(H,U,f) =-0.217E-01 0.227E-01-0.130E-03
+CGA:  41    -0.497616313673E+03   -0.53718E-01   -0.53670E-01  3904   0.726E-01 0.893E-03
+ gam= 0.212 trial= 0.269  step= 0.411 mean= 0.269
+ gam= 0.526 g(H,U,f)=  0.209E-01 0.172E-01 0.103E-03 ort(H,U,f) =-0.137E-01 0.141E-01-0.726E-04
+CGA:  42    -0.497631305735E+03   -0.14992E-01   -0.14968E-01  3904   0.382E-01 0.318E-03
+ gam= 0.526 trial= 0.276  step= 0.598 mean= 0.276
+ gam= 0.925 g(H,U,f)=  0.227E-01 0.126E-01 0.673E-04 ort(H,U,f) =-0.154E-01 0.156E-01 0.489E-04
+CGA:  43    -0.497642802765E+03   -0.11497E-01   -0.11461E-01  3904   0.353E-01 0.218E-03
+ gam= 0.925 trial= 0.292  step= 0.652 mean= 0.292
+ gam= 1.042 g(H,U,f)=  0.209E-01 0.157E-01 0.238E-03 ort(H,U,f) =-0.804E-02 0.795E-02-0.188E-03
+CGA:  44    -0.497654346245E+03   -0.11543E-01   -0.11584E-01  3904   0.368E-01-0.277E-03
+ gam= 1.042 trial= 0.310  step= 0.622 mean= 0.310
+ gam= 0.947 g(H,U,f)=  0.202E-01 0.145E-01 0.165E-03 ort(H,U,f) =-0.107E-01 0.109E-01-0.190E-03
+CGA:  45    -0.497665710115E+03   -0.11364E-01   -0.11360E-01  3904   0.349E-01 0.280E-04
+ gam= 0.947 trial= 0.326  step= 0.648 mean= 0.326
+ gam= 1.018 g(H,U,f)=  0.254E-01 0.994E-02 0.125E-03 ort(H,U,f) =-0.109E-01 0.112E-01-0.157E-03
+CGA:  46    -0.497677030492E+03   -0.11320E-01   -0.11311E-01  3904   0.355E-01 0.748E-04
+ gam= 1.018 trial= 0.342  step= 0.666 mean= 0.342
+ gam= 1.039 g(H,U,f)=  0.225E-01 0.139E-01 0.466E-03 ort(H,U,f) =-0.115E-01 0.118E-01-0.371E-03
+CGA:  47    -0.497688852398E+03   -0.11822E-01   -0.11832E-01  3904   0.369E-01-0.821E-04
+ gam= 1.039 trial= 0.358  step= 0.649 mean= 0.358
+ gam= 0.974 g(H,U,f)=  0.255E-01 0.974E-02 0.624E-03 ort(H,U,f) =-0.148E-01 0.151E-01-0.931E-04
+CGA:  48    -0.497700807593E+03   -0.11955E-01   -0.11932E-01  3904   0.359E-01 0.157E-03
+ gam= 0.974 trial= 0.373  step= 0.636 mean= 0.373
+ gam= 0.873 g(H,U,f)=  0.183E-01 0.128E-01 0.222E-03 ort(H,U,f) =-0.771E-02 0.799E-02-0.148E-04
+CGA:  49    -0.497712301488E+03   -0.11494E-01   -0.11459E-01  3904   0.313E-01 0.265E-03
+ gam= 0.873 trial= 0.386  step= 0.565 mean= 0.386
+ gam= 0.737 g(H,U,f)=  0.130E-01 0.101E-01 0.621E-04 ort(H,U,f) =-0.682E-02 0.672E-02-0.629E-05
+CGA:  50    -0.497721210640E+03   -0.89092E-02   -0.89205E-02  3904   0.231E-01-0.116E-03
+ gam= 0.737 trial= 0.395  step= 0.558 mean= 0.395
+ gam= 0.657 g(H,U,f)=  0.106E-01 0.446E-02 0.972E-04 ort(H,U,f) =-0.458E-02 0.450E-02 0.125E-04
+CGA:  51    -0.497727630947E+03   -0.64203E-02   -0.64269E-02  3904   0.152E-01-0.739E-04
+ gam= 0.657 trial= 0.403  step= 0.529 mean= 0.403
+ gam= 0.696 g(H,U,f)=  0.585E-02 0.466E-02 0.402E-04 ort(H,U,f) =-0.239E-02 0.250E-02-0.360E-04
+CGA:  52    -0.497731635265E+03   -0.40043E-02   -0.39985E-02  3904   0.106E-01 0.688E-04
+ gam= 0.696 trial= 0.409  step= 0.577 mean= 0.409
+ gam= 0.796 g(H,U,f)=  0.545E-02 0.293E-02 0.179E-04 ort(H,U,f) =-0.367E-02 0.372E-02-0.651E-05
+CGA:  53    -0.497734695990E+03   -0.30607E-02   -0.30576E-02  3904   0.840E-02 0.399E-04
+ gam= 0.796 trial= 0.418  step= 0.667 mean= 0.418
+ gam= 1.050 g(H,U,f)=  0.493E-02 0.383E-02 0.536E-04 ort(H,U,f) =-0.237E-02 0.241E-02-0.221E-04
+CGA:  54    -0.497737513028E+03   -0.28170E-02   -0.28138E-02  3904   0.882E-02 0.224E-04
+ gam= 1.050 trial= 0.430  step= 0.659 mean= 0.430
+ gam= 0.986 g(H,U,f)=  0.522E-02 0.346E-02 0.168E-04 ort(H,U,f) =-0.258E-02 0.261E-02-0.993E-05
+CGA:  55    -0.497740429231E+03   -0.29162E-02   -0.29143E-02  3904   0.870E-02 0.185E-04
+ gam= 0.986 trial= 0.442  step= 0.603 mean= 0.442
+ gam= 0.741 g(H,U,f)=  0.439E-02 0.202E-02 0.259E-04 ort(H,U,f) =-0.227E-02 0.235E-02-0.957E-05
+CGA:  56    -0.497743061582E+03   -0.26324E-02   -0.26261E-02  3904   0.644E-02 0.665E-04
+ gam= 0.741 trial= 0.450  step= 0.518 mean= 0.450
+ gam= 0.617 g(H,U,f)=  0.275E-02 0.121E-02 0.149E-04 ort(H,U,f) =-0.929E-03 0.106E-02-0.127E-04
+CGA:  57    -0.497744748223E+03   -0.16866E-02   -0.16802E-02  3904   0.398E-02 0.122E-03
+ gam= 0.617 trial= 0.453  step= 0.485 mean= 0.453
+ gam= 0.495 g(H,U,f)=  0.132E-02 0.641E-03 0.753E-05 ort(H,U,f) =-0.689E-03 0.771E-03-0.244E-05
+CGA:  58    -0.497745732396E+03   -0.98417E-03   -0.98243E-03  3904   0.197E-02 0.795E-04
+ gam= 0.495 trial= 0.455  step= 0.492 mean= 0.455
+ gam= 0.585 g(H,U,f)=  0.759E-03 0.386E-03 0.622E-05 ort(H,U,f) =-0.295E-03 0.333E-03-0.409E-05
+CGA:  59    -0.497746227649E+03   -0.49525E-03   -0.49419E-03  3904   0.115E-02 0.346E-04
+ gam= 0.585 trial= 0.456  step= 0.537 mean= 0.456
+ gam= 0.685 g(H,U,f)=  0.495E-03 0.293E-03 0.143E-05 ort(H,U,f) =-0.202E-03 0.198E-03-0.658E-06
+CGA:  60    -0.497746541892E+03   -0.31424E-03   -0.31434E-03  3904   0.789E-03-0.511E-05
+ gam= 0.685 trial= 0.461  step= 0.603 mean= 0.461
+ gam= 0.849 g(H,U,f)=  0.427E-03 0.239E-03 0.365E-05 ort(H,U,f) =-0.194E-03 0.190E-03-0.153E-05
+CGA:  61    -0.497746778411E+03   -0.23652E-03   -0.23669E-03  3904   0.670E-03-0.593E-05
+ gam= 0.849 trial= 0.468  step= 0.585 mean= 0.468
+ gam= 0.835 g(H,U,f)=  0.358E-03 0.198E-03 0.248E-05 ort(H,U,f) =-0.161E-03 0.172E-03-0.133E-05
+CGA:  62    -0.497746973656E+03   -0.19525E-03   -0.19429E-03  3904   0.559E-03 0.986E-05
+ gam= 0.835 trial= 0.473  step= 0.637 mean= 0.473
+ gam= 0.955 g(H,U,f)=  0.325E-03 0.206E-03 0.253E-05 ort(H,U,f) =-0.179E-03 0.190E-03-0.122E-05
+CGA:  63    -0.497747155136E+03   -0.18148E-03   -0.18055E-03  3904   0.534E-03 0.977E-05
+ gam= 0.955 trial= 0.482  step= 0.670 mean= 0.482
+ gam= 1.085 g(H,U,f)=  0.360E-03 0.216E-03 0.381E-05 ort(H,U,f) =-0.209E-03 0.212E-03-0.291E-05
+CGA:  64    -0.497747337080E+03   -0.18194E-03   -0.18196E-03  3904   0.579E-03-0.534E-06
+ gam= 1.085 trial= 0.491  step= 0.753 mean= 0.491
+ gam= 1.309 g(H,U,f)=  0.479E-03 0.276E-03 0.328E-05 ort(H,U,f) =-0.242E-03 0.226E-03-0.745E-06
+CGA:  65    -0.497747552659E+03   -0.21558E-03   -0.21790E-03  3904   0.759E-03-0.167E-04
+ gam= 1.309 trial= 0.504  step= 0.704 mean= 0.504
+ gam= 1.199 g(H,U,f)=  0.591E-03 0.313E-03 0.521E-05 ort(H,U,f) =-0.293E-03 0.252E-03-0.180E-05
+CGA:  66    -0.497747806311E+03   -0.25365E-03   -0.25932E-03  3904   0.909E-03-0.420E-04
+ gam= 1.199 trial= 0.514  step= 0.595 mean= 0.514
+ gam= 0.953 g(H,U,f)=  0.593E-03 0.269E-03 0.373E-05 ort(H,U,f) =-0.261E-03 0.277E-03-0.130E-05
+CGA:  67    -0.497748063160E+03   -0.25685E-03   -0.25537E-03  3904   0.866E-03 0.154E-04
+ gam= 0.953 trial= 0.518  step= 0.507 mean= 0.518
+ gam= 0.000 g(H,U,f)=  0.425E-03 0.164E-03 0.419E-05 ort(H,U,f) =-0.135E-03 0.180E-03-0.315E-05
+SDA:  68    -0.497748286223E+03   -0.22306E-03   -0.22345E-03  3904   0.594E-03 0.425E-04
+ gam= 0.000 trial= 0.518  step= 0.369 mean= 0.518
+ gam= 0.298 g(H,U,f)=  0.110E-03 0.664E-04 0.592E-06 ort(H,U,f) =-0.147E-05 0.576E-05-0.105E-05
+CGA:  69    -0.497748395094E+03   -0.10887E-03   -0.10963E-03  3904   0.177E-03 0.325E-05
+ gam= 0.298 trial= 0.510  step= 1.135 mean= 0.510
+ gam= 0.796 g(H,U,f)=  0.105E-03 0.356E-04 0.252E-06 ort(H,U,f) =-0.274E-04 0.312E-04 0.608E-07
+CGA:  70    -0.497748497258E+03   -0.10216E-03   -0.10098E-03  3904   0.141E-03 0.378E-05
+ gam= 0.796 trial= 0.541  step= 0.660 mean= 0.541
+ gam= 0.586 g(H,U,f)=  0.574E-04 0.249E-04 0.198E-06 ort(H,U,f) =-0.752E-05 0.166E-04-0.121E-06
+CGA:  71    -0.497748545460E+03   -0.48202E-04   -0.47474E-04  3904   0.825E-04 0.895E-05
+ gam= 0.586 trial= 0.547  step= 0.708 mean= 0.547
+ final diagonalization
+   1 F= -.49774855E+03 E0= -.49774179E+03  d E =-.497749E+03  mag=    94.0000
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.811E-03 g(S)=  0.000E+00 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.811E-03
+ reached required accuracy - stopping structural energy minimisation
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL

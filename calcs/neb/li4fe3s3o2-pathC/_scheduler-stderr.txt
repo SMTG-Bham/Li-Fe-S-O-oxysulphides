@@ -1,0 +1,83 @@
+Unloading /usr/local/share/epcc-module/epcc-module-loader
+
+Warning: Unloading the epcc-setup-env module will stop many
+modules being available on the system. If you do this by
+accident, you can recover the situation with the command:
+
+	module load /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+
+Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Unloading bolt/0.7
+Loading bolt/0.7
+Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Loading /usr/local/share/epcc-module/epcc-module-loader
+
+Loading epcc-job-env
+  Loading requirement: bolt/0.7
+    /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Unloading epcc-job-env
+Unloading /usr/local/share/epcc-module/epcc-module-loader
+
+Warning: Unloading the epcc-setup-env module will stop many
+modules being available on the system. If you do this by
+accident, you can recover the situation with the command:
+
+	module load /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+
+Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Unloading bolt/0.7
+Unloading cray-libsci/20.10.1.2
+Unloading cray-mpich/8.0.16
+Unloading xpmem/2.2.35-7.0.1.0_1.9__gd50fabf.shasta
+Unloading perftools-base/20.10.0
+Unloading cray-dsmml/0.1.2
+Unloading craype-network-ofi
+Unloading libfabric/1.11.0.0.233
+Unloading craype-x86-rome
+Unloading craype/2.7.2
+Unloading cce/10.0.4
+Unloading cpe-cray
+Loading cpe-gnu
+Loading gcc/10.1.0
+Loading craype/2.7.2
+Loading craype-x86-rome
+Loading libfabric/1.11.0.0.233
+Loading craype-network-ofi
+Loading cray-dsmml/0.1.2
+Loading perftools-base/20.10.0
+Loading xpmem/2.2.35-7.0.1.0_1.9__gd50fabf.shasta
+Loading cray-mpich/8.0.16
+Loading cray-libsci/20.10.1.2
+Loading bolt/0.7
+Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Loading /usr/local/share/epcc-module/epcc-module-loader
+Switching to cray-dsmml/0.1.3.
+Switching to cray-fftw/3.3.8.9.
+Switching to cray-libsci/21.03.1.1.
+Switching to cray-mpich/8.1.3.
+Switching to craype/2.7.5.
+Switching to gcc/9.3.0.
+Switching to perftools-base/21.02.0.
+
+Loading cpe/21.03
+  Unloading conflict: cray-dsmml/0.1.2 cray-fftw/3.3.8.8 cray-libsci/20.10.1.2
+    cray-mpich/8.0.16 craype/2.7.2 gcc/10.1.0 perftools-base/20.10.0
+  Loading requirement: cray-dsmml/0.1.3 cray-fftw/3.3.8.9 cray-libsci/21.03.1.1
+    cray-mpich/8.1.3 craype/2.7.5 gcc/9.3.0 perftools-base/21.02.0
+Currently Loaded Modulefiles:
+ 1) cpe-gnu                                                          
+ 2) craype-x86-rome                                                  
+ 3) libfabric/1.11.0.0.233(default)                                  
+ 4) craype-network-ofi                                               
+ 5) xpmem/2.2.35-7.0.1.0_1.9__gd50fabf.shasta(default)               
+ 6) bolt/0.7                                                         
+ 7) /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env  
+ 8) /usr/local/share/epcc-module/epcc-module-loader                  
+ 9) cray-dsmml/0.1.3                                                 
+10) cray-fftw/3.3.8.9                                                
+11) cray-libsci/21.03.1.1                                            
+12) cray-mpich/8.1.3                                                 
+13) craype/2.7.5                                                     
+14) gcc/9.3.0                                                        
+15) perftools-base/21.02.0                                           
+16) cpe/21.03(default)                                               

@@ -1,0 +1,145 @@
+ running on   48 total cores
+ distrk:  each k-point on   24 cores,    2 groups
+ distr:  one band on    6 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Oct 25 2017 14:42:18) complex          
+  
+ POSCAR found type information on POSCAR  Li O  S  Fe
+ POSCAR found :  4 types and     224 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have a (more or less) 'large supercell' and for larger cells       |
+|      it might be more efficient to use real space projection opertators     |
+|      So try LREAL= Auto  in the INCAR   file.                               |
+|      Mind:          For very  accurate calculation you might also keep the  |
+|      reciprocal projection scheme          (i.e. LREAL=.FALSE.)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ charge-density read from file: unknown                                 
+ magnetization density read from file 1
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort
+DAV:   1     0.225539003175E+05    0.22554E+05   -0.95805E+05  9664   0.204E+03
+DAV:   2     0.247300985717E+04   -0.20081E+05   -0.18788E+05  9664   0.522E+02
+DAV:   3    -0.727007247910E+03   -0.32000E+04   -0.27905E+04  9664   0.204E+02
+DAV:   4    -0.112232724647E+04   -0.39532E+03   -0.38982E+03  9664   0.560E+01
+DAV:   5    -0.116788283716E+04   -0.45556E+02   -0.45180E+02  9664   0.153E+01
+ gam= 0.000 g(H,U,f)=  0.331E+01 0.397E-02 0.156E-18 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   6    -0.116778429362E+04    0.98544E-01   -0.45180E+02  9664   0.331E+01 0.000E+00
+ gam= 0.000 trial= 0.400  step= 0.613 mean= 0.400
+ gam= 0.678 g(H,U,f)=  0.224E+01 0.479E-02 0.594E-18 ort(H,U,f) = 0.528E-02-0.226E-02-0.305E-18
+CGA:   7    -0.116880002879E+04   -0.10157E+01   -0.10154E+01  9664   0.225E+01 0.302E-02
+ gam= 0.678 trial= 0.411  step= 0.555 mean= 0.411
+ gam= 0.370 g(H,U,f)=  0.830E+00 0.959E-03 0.161E-17 ort(H,U,f) = 0.326E-03 0.987E-03 0.220E-17
+CGA:   8    -0.116942363719E+04   -0.62361E+00   -0.62348E+00  9664   0.831E+00 0.131E-02
+ gam= 0.370 trial= 0.418  step= 0.588 mean= 0.418
+ gam= 0.388 g(H,U,f)=  0.321E+00 0.136E-02 0.294E-15 ort(H,U,f) = 0.156E-02-0.131E-02-0.323E-15
+CGA:   9    -0.116966815502E+04   -0.24452E+00   -0.24449E+00  9664   0.322E+00 0.254E-03
+ gam= 0.388 trial= 0.426  step= 0.584 mean= 0.426
+ gam= 0.393 g(H,U,f)=  0.126E+00 0.338E-03 0.177E-16 ort(H,U,f) =-0.506E-04 0.101E-03-0.169E-17
+CGA:  10    -0.116976217678E+04   -0.94022E-01   -0.94017E-01  9664   0.127E+00 0.505E-04
+ gam= 0.393 trial= 0.434  step= 0.572 mean= 0.434
+ gam= 0.306 g(H,U,f)=  0.385E-01 0.230E-03 0.351E-36 ort(H,U,f) =-0.277E-03 0.292E-03 0.195E-35
+CGA:  11    -0.116979839716E+04   -0.36220E-01   -0.36219E-01  9664   0.387E-01 0.155E-04
+ gam= 0.306 trial= 0.441  step= 0.576 mean= 0.441
+ gam= 0.349 g(H,U,f)=  0.134E-01 0.157E-03 0.488E-32 ort(H,U,f) =-0.109E-03 0.174E-03 0.308E-32
+CGA:  12    -0.116980955248E+04   -0.11155E-01   -0.11151E-01  9664   0.135E-01 0.658E-04
+ gam= 0.349 trial= 0.448  step= 0.798 mean= 0.448
+ gam= 0.533 g(H,U,f)=  0.716E-02 0.484E-04 0.177E-29 ort(H,U,f) =-0.573E-04 0.428E-04-0.480E-29
+CGA:  13    -0.116981495749E+04   -0.54050E-02   -0.54075E-02  9664   0.720E-02-0.145E-04
+ gam= 0.533 trial= 0.465  step= 0.894 mean= 0.465
+ gam= 0.597 g(H,U,f)=  0.429E-02 0.151E-04 0.218E-30 ort(H,U,f) = 0.264E-04-0.349E-05 0.173E-30
+CGA:  14    -0.116981817853E+04   -0.32210E-02   -0.32162E-02  9664   0.430E-02 0.229E-04
+ gam= 0.597 trial= 0.487  step= 0.919 mean= 0.487
+ gam= 0.557 g(H,U,f)=  0.237E-02 0.225E-04 0.662E-27 ort(H,U,f) = 0.225E-04-0.292E-04-0.620E-27
+CGA:  15    -0.116982015970E+04   -0.19812E-02   -0.19827E-02  9664   0.240E-02-0.668E-05
+ gam= 0.557 trial= 0.508  step= 0.906 mean= 0.508
+ gam= 0.550 g(H,U,f)=  0.129E-02 0.279E-04 0.588E-26 ort(H,U,f) = 0.428E-04-0.106E-04-0.110E-25
+CGA:  16    -0.116982124948E+04   -0.10898E-02   -0.10835E-02  9664   0.132E-02 0.322E-04
+ gam= 0.550 trial= 0.528  step= 0.928 mean= 0.528
+ gam= 0.709 g(H,U,f)=  0.895E-03 0.391E-04 0.960E-24 ort(H,U,f) = 0.166E-04-0.827E-05 0.948E-26
+CGA:  17    -0.116982187009E+04   -0.62061E-03   -0.61896E-03  9664   0.934E-03 0.831E-05
+ gam= 0.709 trial= 0.548  step= 0.813 mean= 0.548
+ gam= 0.719 g(H,U,f)=  0.643E-03 0.286E-04 0.926E-23 ort(H,U,f) = 0.361E-04-0.134E-04-0.120E-22
+CGA:  18    -0.116982225542E+04   -0.38533E-03   -0.38231E-03  9664   0.672E-03 0.228E-04
+ gam= 0.719 trial= 0.562  step= 0.890 mean= 0.562
+ gam= 0.613 g(H,U,f)=  0.400E-03 0.123E-04 0.173E-22 ort(H,U,f) = 0.725E-05-0.105E-04-0.763E-25
+CGA:  19    -0.116982256114E+04   -0.30572E-03   -0.30626E-03  9664   0.412E-03-0.325E-05
+ gam= 0.613 trial= 0.578  step= 0.940 mean= 0.578
+ gam= 0.518 g(H,U,f)=  0.206E-03 0.797E-05 0.445E-23 ort(H,U,f) = 0.955E-05-0.665E-05-0.256E-22
+CGA:  20    -0.116982275435E+04   -0.19321E-03   -0.19268E-03  9664   0.214E-03 0.290E-05
+ gam= 0.518 trial= 0.596  step= 0.904 mean= 0.596
+ gam= 0.592 g(H,U,f)=  0.118E-03 0.867E-05 0.345E-20 ort(H,U,f) =-0.108E-05-0.303E-05 0.841E-21
+CGA:  21    -0.116982285090E+04   -0.96546E-04   -0.97179E-04  9664   0.126E-03-0.411E-05
+ gam= 0.592 trial= 0.611  step= 0.763 mean= 0.611
+ gam= 0.555 g(H,U,f)=  0.657E-04 0.448E-05 0.482E-20 ort(H,U,f) = 0.121E-05-0.161E-05-0.945E-20
+CGA:  22    -0.116982289818E+04   -0.47278E-04   -0.47308E-04  9664   0.702E-04-0.392E-06
+ gam= 0.555 trial= 0.619  step= 0.889 mean= 0.619
+ gam= 0.545 g(H,U,f)=  0.368E-04 0.140E-05 0.141E-20 ort(H,U,f) =-0.227E-05-0.181E-06-0.491E-21
+CGA:  23    -0.116982292895E+04   -0.30777E-04   -0.31108E-04  9664   0.382E-04-0.245E-05
+ gam= 0.545 trial= 0.633  step= 0.938 mean= 0.633
+ gam= 0.595 g(H,U,f)=  0.216E-04 0.116E-05 0.683E-21 ort(H,U,f) = 0.101E-05-0.485E-06-0.122E-20
+CGA:  24    -0.116982294634E+04   -0.17385E-04   -0.17306E-04  9664   0.227E-04 0.522E-06
+ gam= 0.595 trial= 0.648  step= 0.857 mean= 0.648
+ gam= 0.739 g(H,U,f)=  0.156E-04 0.123E-05 0.547E-19 ort(H,U,f) = 0.329E-06-0.536E-06 0.169E-20
+CGA:  25    -0.116982295619E+04   -0.98570E-05   -0.98792E-05  9664   0.168E-04-0.207E-06
+ gam= 0.739 trial= 0.658  step= 0.914 mean= 0.658
+ gam= 0.684 g(H,U,f)=  0.108E-04 0.678E-06 0.361E-19 ort(H,U,f) = 0.244E-06-0.864E-07-0.609E-19
+CGA:  26    -0.116982296382E+04   -0.76273E-05   -0.76075E-05  9664   0.115E-04 0.158E-06
+ gam= 0.684 trial= 0.671  step= 1.096 mean= 0.671
+ gam= 0.724 g(H,U,f)=  0.786E-05 0.460E-06 0.407E-21 ort(H,U,f) = 0.192E-06 0.163E-06-0.237E-21
+CGA:  27    -0.116982297026E+04   -0.64348E-05   -0.63591E-05  9664   0.832E-05 0.355E-06
+ gam= 0.724 trial= 0.692  step= 1.097 mean= 0.692
+ gam= 0.964 g(H,U,f)=  0.732E-05 0.697E-06 0.112E-20 ort(H,U,f) =-0.228E-06-0.100E-07-0.522E-21
+CGA:  28    -0.116982297491E+04   -0.46577E-05   -0.47057E-05  9664   0.802E-05-0.238E-06
+ gam= 0.964 trial= 0.713  step= 0.802 mean= 0.713
+ gam= 0.662 g(H,U,f)=  0.499E-05 0.319E-06 0.320E-21 ort(H,U,f) = 0.276E-06 0.231E-07-0.434E-21
+CGA:  29    -0.116982297805E+04   -0.31356E-05   -0.31227E-05  9664   0.531E-05 0.299E-06
+ gam= 0.662 trial= 0.717  step= 1.094 mean= 0.717
+ gam= 0.737 g(H,U,f)=  0.371E-05 0.200E-06 0.180E-21 ort(H,U,f) =-0.134E-06 0.133E-06 0.517E-25
+CGA:  30    -0.116982298107E+04   -0.30148E-05   -0.30144E-05  9664   0.392E-05-0.466E-09
+ gam= 0.737 trial= 0.736  step= 1.116 mean= 0.736
+ gam= 0.955 g(H,U,f)=  0.347E-05 0.270E-06 0.358E-20 ort(H,U,f) = 0.301E-07 0.127E-06-0.147E-20
+CGA:  31    -0.116982298328E+04   -0.22146E-05   -0.21843E-05  9664   0.374E-05 0.157E-06
+ gam= 0.955 trial= 0.755  step= 0.874 mean= 0.755
+ gam= 0.752 g(H,U,f)=  0.263E-05 0.185E-06 0.493E-20 ort(H,U,f) =-0.944E-07 0.118E-06-0.304E-20
+CGA:  32    -0.116982298498E+04   -0.17023E-05   -0.17004E-05  9664   0.281E-05 0.240E-07
+ gam= 0.752 trial= 0.761  step= 0.966 mean= 0.761
+ gam= 0.568 g(H,U,f)=  0.152E-05 0.763E-07 0.334E-20 ort(H,U,f) = 0.178E-07 0.124E-06-0.264E-20
+CGA:  33    -0.116982298636E+04   -0.13813E-05   -0.13674E-05  9664   0.160E-05 0.142E-06
+ gam= 0.568 trial= 0.771  step= 1.102 mean= 0.771
+ gam= 0.771 g(H,U,f)=  0.112E-05 0.106E-06 0.628E-20 ort(H,U,f) =-0.102E-06 0.649E-07-0.338E-20
+CGA:  34    -0.116982298728E+04   -0.91724E-06   -0.92451E-06  9664   0.123E-05-0.371E-07
+ gam= 0.771 trial= 0.788  step= 0.782 mean= 0.788
+ final diagonalization
+   1 F= -.11698230E+04 E0= -.11698230E+04  d E =-.119158E-10  mag=   256.0000

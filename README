@@ -1,0 +1,8 @@
+## Data for paper "Predicting lithium iron oxysulphides for battery cathodes"
+
+Content of the repository
+
+- `search-data` contains the relaxed structures sampled by ab initio random structure searching (AIRSS)
+- `structure-export` contains the structures further relaxed using VASP and used for the convex hull construction 
+- `phonon-calcs` contains the phonon calculations
+- `all-calcs.aiida` is an AiiDA export file containing all calculation performed and reported in paper with their full provenance. This file can be imported into an AiiDA instance (`aiida-core > 1.5`). Raw data may also be access by simply unzip the file.

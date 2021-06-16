@@ -1,0 +1,3 @@
+,resid,formula,Distance to Hull (eV),decomp,Distance to known hull (eV),decomp_known,structure_uuid,functional,Energy Per Atom (eV)
+0,073900,LiFeSO,0.11631080031250018,Li2SO4+Li2Fe4S3O2+Li2S,0.10452435305555507,Li2SO4+LiFeO2+FeS+Li2S,937f8351-e598-4302-9a21-bc1db8edd42e,pbe,-5.3687925175
+1,ee3707,LiFeSO,0.12542042031250045,Li2SO4+Li2Fe4S3O2+Li2S,0.11363397305555534,Li2SO4+LiFeO2+FeS+Li2S,5c254128-b40b-44cc-9ef9-71ddab7fe211,pbe,-5.3596828975

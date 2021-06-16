@@ -1,0 +1,29 @@
+descriptors:
+  cmd-desc:
+    soap1:
+      acronym: atomic-to-global-dddgor
+      atomic_descriptor:
+        soap1:
+          acronym: SOAP-n4-l3-c3.3-g0.41
+          atom_gaussian_width: 0.41
+          crossover: true
+          cutoff: 3.3
+          l: 3
+          n: 4
+          periodic: true
+          rbf: gto
+          species: &id001
+          - 3
+          - 8
+          - 16
+          - 26
+          type: SOAP
+      max_atoms: 24
+      periodic: true
+      reducer_function:
+        reducer1:
+          acronym: ''
+          element_wise: false
+          reducer_type: average
+          species: *id001
+      species: *id001

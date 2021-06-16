@@ -1,0 +1,108 @@
+ running on   20 total cores
+ distrk:  each k-point on   10 cores,    2 groups
+ distr:  one band on   10 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Oct 25 2017 14:42:18) complex          
+  
+ POSCAR found type information on POSCAR  Li O  S  Fe
+ POSCAR found :  4 types and     108 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have a (more or less) 'large supercell' and for larger cells       |
+|      it might be more efficient to use real space projection opertators     |
+|      So try LREAL= Auto  in the INCAR   file.                               |
+|      Mind:          For very  accurate calculation you might also keep the  |
+|      reciprocal projection scheme          (i.e. LREAL=.FALSE.)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.128764832006E+05    0.12876E+05   -0.47176E+05 36200   0.194E+03
+DAV:   2     0.153283777203E+04   -0.11344E+05   -0.10457E+05 35280   0.534E+02
+DAV:   3    -0.433342026639E+03   -0.19662E+04   -0.17897E+04 37392   0.225E+02
+DAV:   4    -0.646880915954E+03   -0.21354E+03   -0.20814E+03 43704   0.608E+01
+DAV:   5    -0.664752039758E+03   -0.17871E+02   -0.17437E+02 60624   0.138E+01    0.109E+02
+DAV:   6    -0.558911107500E+03    0.10584E+03   -0.69818E+02 43504   0.690E+01    0.112E+02
+DAV:   7    -0.581870067223E+03   -0.22959E+02   -0.17702E+02 40504   0.349E+01    0.667E+01
+DAV:   8    -0.590223340773E+03   -0.83533E+01   -0.58469E+01 42360   0.271E+01    0.436E+01
+DAV:   9    -0.597836038026E+03   -0.76127E+01   -0.15278E+01 41808   0.773E+00    0.258E+01
+DAV:  10    -0.601052487869E+03   -0.32164E+01   -0.26131E+00 44800   0.388E+00    0.862E+00
+DAV:  11    -0.601862233664E+03   -0.80975E+00   -0.11335E+00 45152   0.232E+00    0.245E+00
+DAV:  12    -0.601922297965E+03   -0.60064E-01   -0.26520E-01 44368   0.164E+00    0.122E+00
+DAV:  13    -0.601952779436E+03   -0.30481E-01   -0.11317E-01 44488   0.544E-01    0.674E-01
+DAV:  14    -0.601957335651E+03   -0.45562E-02   -0.16927E-02 44056   0.218E-01    0.513E-01
+DAV:  15    -0.601957948259E+03   -0.61261E-03   -0.13516E-03 50264   0.102E-01    0.333E-01
+DAV:  16    -0.601958658497E+03   -0.71024E-03   -0.76831E-04 41032   0.586E-02    0.111E-01
+DAV:  17    -0.601958811400E+03   -0.15290E-03   -0.20068E-04 42640   0.295E-02    0.452E-02
+DAV:  18    -0.601958838375E+03   -0.26975E-04   -0.42839E-05 44712   0.125E-02    0.274E-02
+DAV:  19    -0.601958856924E+03   -0.18548E-04   -0.15109E-05 43104   0.163E-02    0.199E-02
+DAV:  20    -0.601958868699E+03   -0.11775E-04   -0.15148E-05 41808   0.847E-03    0.120E-02
+DAV:  21    -0.601958874203E+03   -0.55046E-05   -0.44254E-06 42224   0.642E-03    0.710E-03
+DAV:  22    -0.601958876568E+03   -0.23648E-05   -0.23761E-06 43248   0.274E-03    0.506E-03
+DAV:  23    -0.601958878690E+03   -0.21216E-05   -0.51611E-07 47336   0.245E-03    0.412E-03
+DAV:  24    -0.601958880232E+03   -0.15420E-05   -0.70368E-07 42568   0.204E-03    0.367E-03
+DAV:  25    -0.601958881633E+03   -0.14016E-05   -0.36384E-07 42088   0.205E-03    0.334E-03
+DAV:  26    -0.601958883623E+03   -0.19899E-05   -0.96356E-07 44752   0.338E-03    0.280E-03
+DAV:  27    -0.601958885993E+03   -0.23695E-05   -0.30025E-06 45352   0.596E-03    0.254E-03
+DAV:  28    -0.601958887175E+03   -0.11821E-05   -0.30413E-06 43176   0.354E-03    0.172E-03
+DAV:  29    -0.601958887598E+03   -0.42295E-06   -0.51711E-07 39864   0.149E-03    0.138E-03
+DAV:  30    -0.601958887855E+03   -0.25664E-06   -0.21714E-07 36976   0.136E-03    0.116E-03
+DAV:  31    -0.601958888030E+03   -0.17567E-06   -0.45506E-07 41624   0.197E-03    0.982E-04
+DAV:  32    -0.601958888125E+03   -0.94340E-07   -0.30685E-07 34824   0.757E-04    0.887E-04
+DAV:  33    -0.601958888143E+03   -0.18132E-07   -0.24507E-08 24744   0.297E-04    0.848E-04
+DAV:  34    -0.601958888160E+03   -0.16880E-07   -0.26405E-09 19408   0.267E-04    0.828E-04
+DAV:  35    -0.601958888173E+03   -0.13621E-07   -0.12172E-08 24488   0.301E-04    0.804E-04
+DAV:  36    -0.601958888184E+03   -0.10303E-07   -0.16760E-08 26752   0.411E-04    0.786E-04
+DAV:  37    -0.601958888189E+03   -0.52823E-08   -0.15956E-08 25168   0.306E-04
+   1 F= -.60195889E+03 E0= -.60195889E+03  d E =-.134884E-31  mag=   144.0000

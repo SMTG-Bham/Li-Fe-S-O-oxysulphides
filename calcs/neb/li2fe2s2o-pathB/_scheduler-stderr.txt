@@ -1,0 +1,29 @@
+Unloading /usr/local/share/epcc-module/epcc-module-loader
+
+Warning: Unloading the epcc-setup-env module will stop many
+modules being available on the system. If you do this by
+accident, you can recover the situation with the command:
+
+	module load /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+
+Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Unloading bolt/0.7
+Loading bolt/0.7
+Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Loading /usr/local/share/epcc-module/epcc-module-loader
+
+Loading epcc-job-env
+  Loading requirement: bolt/0.7
+    /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Switching to cce/11.0.3.
+Switching to cray-dsmml/0.1.3.
+Switching to cray-libsci/21.03.1.1.
+Switching to cray-mpich/8.1.3.
+Switching to craype/2.7.5.
+Switching to perftools-base/21.02.0.
+
+Loading cpe/21.03
+  Unloading conflict: cce/10.0.4 cray-dsmml/0.1.2 cray-libsci/20.10.1.2
+    cray-mpich/8.0.16 craype/2.7.2 perftools-base/20.10.0
+  Loading requirement: cce/11.0.3 cray-dsmml/0.1.3 cray-libsci/21.03.1.1
+    cray-mpich/8.1.3 craype/2.7.5 perftools-base/21.02.0

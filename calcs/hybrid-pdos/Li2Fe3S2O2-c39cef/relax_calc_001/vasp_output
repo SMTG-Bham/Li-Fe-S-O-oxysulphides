@@ -1,0 +1,192 @@
+GERun: 
+GERun: Note: Lines like this one prefixed with "GERun:" are for debugging
+GERun:       purposes only and you do not need to report them to rc-support
+GERun:       unless your job fails for other reasons.
+GERun: 
+GERun: 
+GERun: Grid Engine parallel launcher abstraction layer version iv (public)
+GERun: Dr Owain Kenway, RCAS, RITS, ISD, UCL, 7th of February, 2018
+GERun: 
+GERun: For licensing terms, see LICENSE.txt
+GERun: 
+GERun: Using environment: intel
+GERun: Running on 112 slots:
+GERun:   112 MPI tasks
+GERun:     1 threads per task
+GERun: TMPDIR=/tmpdir/job/373798.undefined
+GERun: 
+GERun: Contents of machinefile:
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-001
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-003
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: node-a14b-002
+GERun: 
+GERun: GErun command being run:
+GERun:  mpirun --rsh=ssh -machinefile /tmpdir/job/373798.undefined/machines.unique -np 112 -rr /home/uccabz1/vasp/6.2.0/bin-a-node/vasp_std
+ running on  112 total cores
+ distrk:  each k-point on    4 cores,   28 groups
+ distr:  one band on    1 cores,    4 groups
+ vasp.6.2.0 18Jan21 (build Jan 29 2021 15:03:46) complex                        
+  
+ POSCAR found type information on POSCAR LiO S Fe
+ POSCAR found :  4 types and       9 ions
+ scaLAPACK will be used
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     For optimal performance we recommend to set                             |
+|       NCORE = 2 up to number-of-cores-per-socket                            |
+|     NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).      |
+|     This setting can greatly improve the performance of VASP for DFT.       |
+|     The default, NCORE=1 might be grossly inefficient on modern             |
+|     multi-core architectures or massively parallel machines. Do your        |
+|     own testing! More info at https://www.vasp.at/wiki/index.php/NCORE      |
+|     Unfortunately you need to use the default for GW and RPA                |
+|     calculations (for HF NCORE is supported but not extensively tested      |
+|     yet).                                                                   |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ WAVECAR: different cutoff or change in lattice found
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.229E-04 0.154E-05 0.183E-22 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.754837313533E+02   -0.75484E+02    0.00000E+00  1456   0.244E-04 0.000E+00
+ gam= 0.000 trial= 0.300  step= 0.365 mean= 0.300
+ gam= 0.590 g(H,U,f)=  0.139E-04 0.521E-06 0.182E-22 ort(H,U,f) =-0.313E-05 0.559E-06 0.179E-22
+CGA:   2    -0.754837357198E+02   -0.43665E-05   -0.44496E-05  1456   0.144E-04-0.257E-05
+ gam= 0.590 trial= 0.303  step= 0.364 mean= 0.303
+ gam= 0.328 g(H,U,f)=  0.436E-05 0.364E-06 0.158E-22 ort(H,U,f) = 0.275E-06 0.658E-06 0.284E-22
+CGA:   3    -0.754837380904E+02   -0.23706E-05   -0.23419E-05  1456   0.473E-05 0.933E-06
+ gam= 0.328 trial= 0.306  step= 0.257 mean= 0.306
+ gam= 0.262 g(H,U,f)=  0.966E-06 0.271E-06 0.137E-22 ort(H,U,f) = 0.349E-06 0.507E-06 0.253E-22
+CGA:   4    -0.754837387161E+02   -0.62575E-06   -0.64683E-06  1456   0.124E-05 0.856E-06
+ gam= 0.262 trial= 0.304  step= 0.526 mean= 0.304
+ final diagonalization
+   1 F= -.75483739E+02 E0= -.75483739E+02  d E =-.754837E+02  mag=    12.0000
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.150E-03 g(S)=  0.172E-03 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.322E-03
+ reached required accuracy - stopping structural energy minimisation
+ writing wavefunctions

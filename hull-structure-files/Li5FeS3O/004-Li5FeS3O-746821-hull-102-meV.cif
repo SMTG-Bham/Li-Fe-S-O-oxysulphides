@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Li10O2S6Fe2
+_chemical_formula_sum              "Li10 O2 S6 Fe2"
+_cell_length_a       5.6199
+_cell_length_b       6.44751
+_cell_length_c       10.414
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    105.378
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.52019  0.99466  0.67699  1.0000
+  Li  Li2       1.0  0.47981  0.00534  0.17699  1.0000
+  Li  Li3       1.0  0.08894  0.10064  0.57616  1.0000
+  Li  Li4       1.0  0.91106  0.89936  0.07616  1.0000
+  Li  Li5       1.0  0.98442  0.85930  0.32524  1.0000
+  Li  Li6       1.0  0.01558  0.14070  0.82524  1.0000
+  Li  Li7       1.0  0.56244  0.45054  0.51645  1.0000
+  Li  Li8       1.0  0.43756  0.54946  0.01645  1.0000
+  Li  Li9       1.0  0.29200  0.88992  0.88550  1.0000
+  Li  Li10      1.0  0.70800  0.11008  0.38550  1.0000
+  O   O1        1.0  0.81947  0.05292  0.22089  1.0000
+  O   O2        1.0  0.18053  0.94708  0.72089  1.0000
+  S   S1        1.0  0.28425  0.18419  0.01797  1.0000
+  S   S2        1.0  0.71575  0.81581  0.51797  1.0000
+  S   S3        1.0  0.32217  0.19400  0.37692  1.0000
+  S   S4        1.0  0.67783  0.80600  0.87692  1.0000
+  S   S5        1.0  0.86142  0.35825  0.66373  1.0000
+  S   S6        1.0  0.13858  0.64175  0.16373  1.0000
+  Fe  Fe1       1.0  0.10449  0.28333  0.20074  1.0000
+  Fe  Fe2       1.0  0.89551  0.71667  0.70074  1.0000

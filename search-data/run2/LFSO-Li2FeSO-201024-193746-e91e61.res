@@ -1,0 +1,32 @@
+TITL LFSO-Li2FeSO-201024-193746-e91e61 0.0116 62.114554 -2.00259897E+003 3.37599 3.45483 5 (P2/m) n - 1
+REM
+REM Run started: Sat, 24 Oct 2020 19:44:45 +0100 in /scratch/scratch/uccabz1/launch_tmp/launcher_2020-10-24-18-37-44-044783
+REM CASTEP 19.11| from code version Version unavailable
+REM Functional Perdew Burke Ernzerhof Relativity Koelling-Harmon Dispersion off
+REM Cut-off 340.0000 eV Grid scale 1.7500 Gmax 16.5316 1/A FBSC none
+REM MP grid 6 5 3 Offset 0.000 0.000 0.000 No. kpts 24 Spacing 0.07
+REM Total runtime: 554.54 s
+REM Overall efficiency: 85.6 %
+REM
+REM
+REM
+REM compiler GCC version 4.9.2
+REM options -cpp -iprefix /scratch/UCL/applications/gcc/4.9.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/ -mtune=corei7 -march=x86-64 -g -O2
+REM COMMAND_LINE
+REM seed -1320720729 378268867 332778021 1069520885 -2000197542 -1328551026 -1200908862 -2984657 -302828743 -1498451624 -602052449 1985194589
+REM
+REM S 3|1.8|5|6|7|30:31:32(qc=5)
+REM O 2|1.5|12|13|15|20:21(qc=5)
+REM Li 1|1.3|8|9|10|10U:20(qc=5)
+REM Fe 3|2.2|2.0|1.0|8|9|10|40:41:32(qc=5)
+REM Fe d:4.0 
+REM
+CELL 1.54180    2.74286    4.24129    6.90980  129.40051   90.00000   90.00000
+LATT -1
+SFAC Li O  S  Fe 
+Li     1  0.5000000000000  0.2511080000000  0.2557020000000 1.0  -0.05
+Li     1 -0.5000000000000 -0.2511080000000 -0.2557020000000 1.0  -0.05
+O      2  0.0000000000000  0.5000000000000 -0.5000000000000 1.0   0.01
+S      3 -0.5000000000000  0.5000000000000  0.0000000000000 1.0   0.02
+Fe     4 -0.5000000000000  0.0000000000000  0.5000000000000 1.0   3.44
+END

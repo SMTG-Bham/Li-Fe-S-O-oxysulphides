@@ -1,0 +1,9 @@
+Unloading default-modules/2018
+  Unloading useless requirement: rcps-core/1.0.0 cmake/3.19.1 flex/2.5.39
+    git/2.19.1 apr-util/1.5.4 subversion/1.8.13 screen/4.2.1 gerun nano/2.4.2
+    nedit/5.6-aug15 dos2unix/7.3 giflib/5.1.1 emacs/26.3 tmux/2.2 mrxvt/0.5.4
+    userscripts/1.4.0 compilers/intel/2018/update3 mpi/intel/2018/update3/intel
+Loading rcps-core/1.0.0
+  Loading requirement: cmake/3.19.1 flex/2.5.39 git/2.19.1 apr-util/1.5.4
+    subversion/1.8.13 screen/4.2.1 gerun nano/2.4.2 nedit/5.6-aug15 dos2unix/7.3
+    giflib/5.1.1 emacs/26.3 tmux/2.2 mrxvt/0.5.4 userscripts/1.4.0

@@ -1,0 +1,36 @@
+data_image0
+_chemical_formula_structural       Li2OS4Fe4
+_chemical_formula_sum              "Li2 O1 S4 Fe4"
+_cell_length_a       5.76838
+_cell_length_b       6.42373
+_cell_length_c       6.83152
+_cell_angle_alpha    70.8305
+_cell_angle_beta     65.0271
+_cell_angle_gamma    63.3211
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.93777  0.84996  0.22315  1.0000
+  Li  Li2       1.0  0.01088  0.15004  0.77685  1.0000
+  O   O1        1.0  0.76833  0.00000  0.00000  1.0000
+  S   S1        1.0  0.03195  0.15756  0.40161  1.0000
+  S   S2        1.0  0.59111  0.84244  0.59839  1.0000
+  S   S3        1.0  0.19901  0.42579  0.80286  1.0000
+  S   S4        1.0  0.42766  0.57421  0.19714  1.0000
+  Fe  Fe1       1.0  0.55692  0.24329  0.48816  1.0000
+  Fe  Fe2       1.0  0.28836  0.75671  0.51184  1.0000
+  Fe  Fe3       1.0  0.75223  0.75487  0.90057  1.0000
+  Fe  Fe4       1.0  0.40766  0.24513  0.09943  1.0000

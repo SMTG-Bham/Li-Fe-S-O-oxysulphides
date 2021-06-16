@@ -1,0 +1,20 @@
+Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env-profile
+Unloading bolt/0.7
+Loading cpe-cray
+Loading cce/10.0.4
+Loading craype/2.7.2
+Loading craype-x86-rome
+Loading libfabric/1.11.0.0.233
+Loading craype-network-ofi
+Loading cray-dsmml/0.1.2
+Loading perftools-base/20.10.0
+Loading xpmem/2.2.35-7.0.1.0_1.9__gd50fabf.shasta
+Loading cray-mpich/8.0.16
+Loading cray-libsci/20.10.1.2
+Loading bolt/0.7
+Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Loading /usr/local/share/epcc-module/epcc-module-loader
+
+Loading epcc-job-env
+  Loading requirement: bolt/0.7
+    /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env

@@ -1,0 +1,68 @@
+ running on   24 total cores
+ distrk:  each k-point on   12 cores,    2 groups
+ distr:  one band on    6 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Oct 25 2017 14:42:18) complex          
+  
+ POSCAR found type information on POSCAR  Li O  S  Fe
+ POSCAR found :  4 types and      88 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have a (more or less) 'large supercell' and for larger cells       |
+|      it might be more efficient to use real space projection opertators     |
+|      So try LREAL= Auto  in the INCAR   file.                               |
+|      Mind:          For very  accurate calculation you might also keep the  |
+|      reciprocal projection scheme          (i.e. LREAL=.FALSE.)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ charge-density read from file: unknown                                 
+ magnetization density read from file 1
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.104094825219E+05    0.10409E+05   -0.41189E+05 30944   0.195E+03
+DAV:   2     0.117741553130E+04   -0.92321E+04   -0.86582E+04 30128   0.531E+02
+DAV:   3    -0.308204392427E+03   -0.14856E+04   -0.12789E+04 32368   0.211E+02
+DAV:   4    -0.476302104187E+03   -0.16810E+03   -0.16534E+03 35016   0.574E+01
+DAV:   5    -0.488729538930E+03   -0.12427E+02   -0.12304E+02 49784   0.127E+01    0.221E+00
+DAV:   6    -0.489200048955E+03   -0.47051E+00   -0.48179E+00 42480   0.221E+00    0.110E+00
+DAV:   7    -0.489217214880E+03   -0.17166E-01   -0.17309E-01 45640   0.552E-01    0.604E-01
+DAV:   8    -0.489216777263E+03    0.43762E-03   -0.36829E-03 43080   0.774E-02    0.542E-01
+DAV:   9    -0.489216051432E+03    0.72583E-03   -0.22052E-04 47424   0.214E-02    0.431E-01
+DAV:  10    -0.489215168446E+03    0.88299E-03   -0.18810E-03 48880   0.434E-02    0.853E-02
+DAV:  11    -0.489215251292E+03   -0.82846E-04   -0.55682E-04 38304   0.230E-02    0.624E-02
+DAV:  12    -0.489215239548E+03    0.11743E-04   -0.51348E-05 40944   0.800E-03    0.528E-02
+DAV:  13    -0.489215224238E+03    0.15310E-04   -0.21143E-05 36072   0.669E-03    0.177E-02
+DAV:  14    -0.489215229923E+03   -0.56852E-05   -0.24379E-05 31904   0.483E-03    0.996E-03
+DAV:  15    -0.489215228493E+03    0.14299E-05   -0.38371E-06 30432   0.250E-03    0.650E-03
+DAV:  16    -0.489215228730E+03   -0.23660E-06   -0.36620E-07 18480   0.158E-03
+   1 F= -.48921523E+03 E0= -.48921523E+03  d E =-.251860E-14  mag=   128.0000
