@@ -3,6 +3,9 @@
 Content of the repository
 
 - `search-data` contains the relaxed structures sampled by ab initio random structure searching (AIRSS)
-- `structure-export` contains the structures further relaxed using VASP and used for the convex hull construction 
-- `phonon-calcs` contains the phonon calculations
+- `hull-structure-export` contains the structures further relaxed using VASP and used for the convex hull construction 
+- `calcs` contains the raw calculation data export from AiiDA file repository for easy access. These data are also in the `all-calc.aiida` archive file.
 - `all-calcs.aiida` is an AiiDA export file containing all calculation performed and reported in paper with their full provenance. This file can be imported into an AiiDA instance (`aiida-core > 1.5`). Raw data may also be access by simply unzip the file.
+- `notebooks` contains the notebooks for data analysis and visualisation.
+- `figures` contains the figures in the PNG and the SVG format. The SVG figures are generated using Inkscape.
+- `visualisation` conatins the structure files used for making the figure
