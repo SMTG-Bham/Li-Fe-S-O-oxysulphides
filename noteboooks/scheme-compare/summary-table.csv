@@ -35,12 +35,12 @@ FeS + Li2O -> FeO + Li2S,"[Comp: Fe1 S1, Comp: Li2 O1]","[Comp: Fe1 O1, Comp: Li
 Fe + 0.5 O2 -> FeO,"[Comp: Fe1, Comp: O2]",[Comp: Fe1 O1],-3.455341534999995,MP-ORIG,Fe + 0.5 O2 -> FeO
 2 Fe + 1.5 O2 -> Fe2O3,"[Comp: Fe1, Comp: O2]",[Comp: Fe2 O3],-9.535352285000002,MP-ORIG,2 Fe + 1.5 O2 -> Fe2O3
 3 Fe + 2 O2 -> Fe3O4,"[Comp: Fe1, Comp: O2]",[Comp: Fe3 O4],-12.899279060000012,MP-ORIG,3 Fe + 2 O2 -> Fe3O4
-FeS + Li2O -> FeO + Li2S,"[Comp: Fe1 S1, Comp: Li2 O1]","[Comp: Fe1 O1, Comp: Li2 S1]",0.3002905349999967,MP-2020,FeS + Li2O -> FeO + Li2S
-0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe2 O3]",-0.10383682749999679,MP-2020,0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3
-0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe3 O4]",-0.05812944750002913,MP-2020,0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4
-2 FeO + 0.5 O2 -> Fe2O3,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe2 O3],-2.6623792150000156,MP-2020,2 FeO + 0.5 O2 -> Fe2O3
-3 FeO + 0.5 O2 -> Fe3O4,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe3 O4],-2.570964455000002,MP-2020,3 FeO + 0.5 O2 -> Fe3O4
-0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3,"[Comp: Fe3 O4, Comp: O2]",[Comp: Fe2 O3],-0.9484029116666619,MP-2020,0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3
-Fe + 0.5 O2 -> FeO,"[Comp: Fe1, Comp: O2]",[Comp: Fe1 O1],-2.942051534999994,MP-2020,Fe + 0.5 O2 -> FeO
-2 Fe + 1.5 O2 -> Fe2O3,"[Comp: Fe1, Comp: O2]",[Comp: Fe2 O3],-8.546482285000003,MP-2020,2 Fe + 1.5 O2 -> Fe2O3
-3 Fe + 2 O2 -> Fe3O4,"[Comp: Fe1, Comp: O2]",[Comp: Fe3 O4],-11.397119060000016,MP-2020,3 Fe + 2 O2 -> Fe3O4
+FeS + Li2O -> FeO + Li2S,"[Comp: Fe1 S1, Comp: Li2 O1]","[Comp: Fe1 O1, Comp: Li2 S1]",0.22629053499999507,MP-2020,FeS + Li2O -> FeO + Li2S
+0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe2 O3]",-0.06683682749999775,MP-2020,0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3
+0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe3 O4]",-0.021129447500026544,MP-2020,0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4
+2 FeO + 0.5 O2 -> Fe2O3,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe2 O3],-2.6093792150000112,MP-2020,2 FeO + 0.5 O2 -> Fe2O3
+3 FeO + 0.5 O2 -> Fe3O4,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe3 O4],-2.5179644549999978,MP-2020,3 FeO + 0.5 O2 -> Fe3O4
+0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3,"[Comp: Fe3 O4, Comp: O2]",[Comp: Fe2 O3],-0.9307362449999914,MP-2020,0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3
+Fe + 0.5 O2 -> FeO,"[Comp: Fe1, Comp: O2]",[Comp: Fe1 O1],-2.9630515349999946,MP-2020,Fe + 0.5 O2 -> FeO
+2 Fe + 1.5 O2 -> Fe2O3,"[Comp: Fe1, Comp: O2]",[Comp: Fe2 O3],-8.535482285,MP-2020,2 Fe + 1.5 O2 -> Fe2O3
+3 Fe + 2 O2 -> Fe3O4,"[Comp: Fe1, Comp: O2]",[Comp: Fe3 O4],-11.407119060000014,MP-2020,3 Fe + 2 O2 -> Fe3O4
