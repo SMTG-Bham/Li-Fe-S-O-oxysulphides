@@ -437,7 +437,6 @@ def get_enumerate_records(groups: List[orm.Group], encut: int,
     Group -> StructureData -> Relax -> *SpinEnumeration*
     """
     # Query to included magnetic enumeration results
-    from aiida_user_addons.vworkflows.magnetic import SpinEnumerateWorkChain
     q = QueryBuilder()
     q.append(Group,
              filters={'id': {
@@ -447,20 +446,20 @@ def get_enumerate_records(groups: List[orm.Group], encut: int,
     q.append(Node, with_group=Group, project=['*', 'label'])
     # First relaxation
     q.append(orm.WorkflowNode, filters={
-        'process_label': 'aiida.workflows:vaspu.relax'
+        'process_type': 'aiida.workflows:vaspu.relax'
     })
     q.append(StructureData)
     # Relaxed structure used for spin enumeration
-    q.append(SpinEnumerateWorkChain,
+    q.append(orm.WorkflowNode,
              filters={'attributes.exit_status': {
                  'in': [0]
-             }},
+             }, 'process_type': {'like': '%magnetic'}},
              tag='enum')
     q.append(orm.WorkflowNode,
              filters={'attributes.exit_status': {
                  'in': [0, 600]
              }, 
-            'process_label': 'aiida.workflows:vaspu.relax'
+            'process_type': 'aiida.workflows:vaspu.relax'
              },
              project=['label', 'uuid'],
              tag='relax')
