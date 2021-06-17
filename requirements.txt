@@ -4,6 +4,7 @@ pymatgen==2020.10.20
 aiida-vasp~=2.0.1
 tqdm
 pandas
+seaborn
 adjustText
 git+https://github.com/aiida-phonopy/aiida-phonopy.git@e063914388e186c4741b4be0381c55b914d80d48#egg=aiida-phonopy
 sumo~=2.2
