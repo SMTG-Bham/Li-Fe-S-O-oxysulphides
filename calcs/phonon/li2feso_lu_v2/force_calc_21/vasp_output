@@ -1,0 +1,153 @@
+GERun: 
+GERun: Note: Lines like this one prefixed with "GERun:" are for debugging
+GERun:       purposes only and you do not need to report them to rc-support
+GERun:       unless your job fails for other reasons.
+GERun: 
+GERun: 
+GERun: Grid Engine parallel launcher abstraction layer version iv (public)
+GERun: Dr Owain Kenway, RCAS, RITS, ISD, UCL, 7th of February, 2018
+GERun: 
+GERun: For licensing terms, see LICENSE.txt
+GERun: 
+GERun: Using environment: intel
+GERun: Running on 48 slots:
+GERun:    48 MPI tasks
+GERun:     1 threads per task
+GERun: TMPDIR=/tmpdir/job/411123.undefined
+GERun: 
+GERun: Contents of machinefile:
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-031
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: node-k10c-023
+GERun: 
+GERun: GErun command being run:
+GERun:  mpirun --rsh=ssh -machinefile /tmpdir/job/411123.undefined/machines.unique -np 48 -rr /shared/ucl/apps/vasp/5.4.4-18apr2017/intel-2017/bin/vasp_std
+ running on   48 total cores
+ distrk:  each k-point on   24 cores,    2 groups
+ distr:  one band on    6 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Oct 25 2017 14:42:18) complex          
+  
+ POSCAR found type information on POSCAR  Li Fe S  O 
+ POSCAR found :  4 types and     160 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have a (more or less) 'large supercell' and for larger cells       |
+|      it might be more efficient to use real space projection opertators     |
+|      So try LREAL= Auto  in the INCAR   file.                               |
+|      Mind:          For very  accurate calculation you might also keep the  |
+|      reciprocal projection scheme          (i.e. LREAL=.FALSE.)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ charge-density read from file: unknown                                 
+ magnetization density read from file 1
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.134718336070E+05    0.13472E+05   -0.55183E+05 30712   0.192E+03
+DAV:   2     0.141191528612E+04   -0.12060E+05   -0.11213E+05 29280   0.526E+02
+DAV:   3    -0.525373005919E+03   -0.19373E+04   -0.17387E+04 32888   0.202E+02
+DAV:   4    -0.788775840937E+03   -0.26340E+03   -0.26053E+03 39296   0.563E+01
+DAV:   5    -0.820556476763E+03   -0.31781E+02   -0.31526E+02 51424   0.174E+01    0.318E+00
+DAV:   6    -0.821994316268E+03   -0.14378E+01   -0.14850E+01 40648   0.363E+00    0.135E+00
+DAV:   7    -0.822067023159E+03   -0.72707E-01   -0.71971E-01 47376   0.943E-01    0.977E-01
+DAV:   8    -0.822067034892E+03   -0.11732E-04   -0.27895E-02 44544   0.183E-01    0.848E-01
+DAV:   9    -0.822066084248E+03    0.95064E-03   -0.17466E-03 47512   0.456E-02    0.779E-01
+DAV:  10    -0.822065611799E+03    0.47245E-03   -0.17976E-04 49304   0.123E-02    0.741E-01
+DAV:  11    -0.822062673964E+03    0.29378E-02   -0.12609E-03 51544   0.355E-02    0.427E-01
+DAV:  12    -0.822062487202E+03    0.18676E-03   -0.61110E-04 37560   0.203E-02    0.372E-01
+DAV:  13    -0.822061987599E+03    0.49960E-03   -0.23757E-04 49664   0.145E-02    0.242E-01
+DAV:  14    -0.822061921777E+03    0.65821E-04   -0.12581E-04 43960   0.928E-03    0.198E-01
+DAV:  15    -0.822061760815E+03    0.16096E-03   -0.11158E-04 49400   0.102E-02    0.814E-02
+DAV:  16    -0.822061742420E+03    0.18395E-04   -0.77884E-05 37232   0.736E-03    0.405E-02
+DAV:  17    -0.822061738378E+03    0.40416E-05   -0.14257E-05 45776   0.283E-03    0.270E-02
+DAV:  18    -0.822061739957E+03   -0.15784E-05   -0.32294E-06 41544   0.136E-03    0.249E-02
+DAV:  19    -0.822061746596E+03   -0.66393E-05   -0.10471E-06 34408   0.195E-03    0.147E-02
+DAV:  20    -0.822061742310E+03    0.42863E-05   -0.32158E-06 44600   0.189E-03    0.182E-03
+DAV:  21    -0.822061742413E+03   -0.10322E-06   -0.17164E-06 35344   0.102E-03    0.206E-03
+DAV:  22    -0.822061742430E+03   -0.16735E-07   -0.64528E-08 33872   0.345E-04    0.184E-03
+DAV:  23    -0.822061742310E+03    0.11981E-06   -0.98392E-08 23488   0.678E-04    0.177E-03
+DAV:  24    -0.822061742030E+03    0.28017E-06   -0.45894E-08 30816   0.642E-04    0.144E-03
+DAV:  25    -0.822061742321E+03   -0.29175E-06   -0.55915E-08 28536   0.319E-04    0.117E-03
+DAV:  26    -0.822061742469E+03   -0.14805E-06   -0.11161E-08 18616   0.284E-04    0.874E-04
+DAV:  27    -0.822061742678E+03   -0.20834E-06   -0.23954E-08 22832   0.574E-04    0.801E-04
+DAV:  28    -0.822061742696E+03   -0.18525E-07   -0.59993E-08 31416   0.497E-04    0.848E-04
+DAV:  29    -0.822061742428E+03    0.26815E-06   -0.17334E-08 21072   0.215E-04    0.687E-04
+DAV:  30    -0.822061742326E+03    0.10250E-06   -0.16773E-09 16488   0.115E-04    0.639E-04
+DAV:  31    -0.822061742238E+03    0.87864E-07   -0.86103E-10 16408   0.106E-04    0.614E-04
+DAV:  32    -0.822061742247E+03   -0.89931E-08   -0.23615E-09 16352   0.725E-05
+   1 F= -.82206174E+03 E0= -.82206174E+03  d E =-.373284E-17  mag=   128.0000
