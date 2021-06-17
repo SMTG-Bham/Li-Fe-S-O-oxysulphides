@@ -1,0 +1,46 @@
+reaction,reactants,product,energy,kind,name
+FeS + Li2O -> FeO + Li2S,"[Comp: Fe1 S1, Comp: Li2 O1]","[Comp: Fe1 O1, Comp: Li2 S1]",-0.1931414800000022,Experimental,FeS + Li2O -> FeO + Li2S
+0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe2 O3]",-0.2132554200000012,Experimental,0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3
+0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe3 O4]",-0.3341928800000069,Experimental,0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4
+2 FeO + 0.5 O2 -> Fe2O3,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe2 O3],-2.9154594000000005,Experimental,2 FeO + 0.5 O2 -> Fe2O3
+3 FeO + 0.5 O2 -> Fe3O4,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe3 O4],-3.1573343199999986,Experimental,3 FeO + 0.5 O2 -> Fe3O4
+0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3,"[Comp: Fe3 O4, Comp: O2]",[Comp: Fe2 O3],-0.8105698533333303,Experimental,0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3
+Fe + 0.5 O2 -> FeO,"[Comp: Fe1, Comp: O2]",[Comp: Fe1 O1],-2.8183758399999985,Experimental,Fe + 0.5 O2 -> FeO
+2 Fe + 1.5 O2 -> Fe2O3,"[Comp: Fe1, Comp: O2]",[Comp: Fe2 O3],-8.552211080000001,Experimental,2 Fe + 1.5 O2 -> Fe2O3
+3 Fe + 2 O2 -> Fe3O4,"[Comp: Fe1, Comp: O2]",[Comp: Fe3 O4],-11.612461840000005,Experimental,3 Fe + 2 O2 -> Fe3O4
+FeS + Li2O -> FeO + Li2S,"[Comp: Fe1 S1, Comp: Li2 O1]","[Comp: Fe1 O1, Comp: Li2 S1]",-0.3717009916666747,All,FeS + Li2O -> FeO + Li2S
+0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe2 O3]",-0.4557525020833495,All,0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3
+0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe3 O4]",-0.5550716458333689,All,0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4
+2 FeO + 0.5 O2 -> Fe2O3,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe2 O3],-2.9091477700000077,All,2 FeO + 0.5 O2 -> Fe2O3
+3 FeO + 0.5 O2 -> Fe3O4,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe3 O4],-3.1077860575000074,All,3 FeO + 0.5 O2 -> Fe3O4
+0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3,"[Comp: Fe3 O4, Comp: O2]",[Comp: Fe2 O3],-0.8372903983333231,All,0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3
+Fe + 0.5 O2 -> FeO,"[Comp: Fe1, Comp: O2]",[Comp: Fe1 O1],-4.022937562499996,All,Fe + 0.5 O2 -> FeO
+2 Fe + 1.5 O2 -> Fe2O3,"[Comp: Fe1, Comp: O2]",[Comp: Fe2 O3],-10.955022895000006,All,2 Fe + 1.5 O2 -> Fe2O3
+3 Fe + 2 O2 -> Fe3O4,"[Comp: Fe1, Comp: O2]",[Comp: Fe3 O4],-15.176598745000014,All,3 Fe + 2 O2 -> Fe3O4
+FeS + Li2O -> FeO + Li2S,"[Comp: Fe1 S1, Comp: Li2 O1]","[Comp: Fe1 O1, Comp: Li2 S1]",0.4564778274999952,Oxide only,FeS + Li2O -> FeO + Li2S
+0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe2 O3]",-0.3207648712500166,Oxide only,0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3
+0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe3 O4]",-0.42008401500004666,Oxide only,0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4
+2 FeO + 0.5 O2 -> Fe2O3,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe2 O3],-2.909147770000004,Oxide only,2 FeO + 0.5 O2 -> Fe2O3
+3 FeO + 0.5 O2 -> Fe3O4,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe3 O4],-3.1077860575000074,Oxide only,3 FeO + 0.5 O2 -> Fe3O4
+0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3,"[Comp: Fe3 O4, Comp: O2]",[Comp: Fe2 O3],-0.8372903983333231,Oxide only,0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3
+Fe + 0.5 O2 -> FeO,"[Comp: Fe1, Comp: O2]",[Comp: Fe1 O1],-2.787862942499995,Oxide only,Fe + 0.5 O2 -> FeO
+2 Fe + 1.5 O2 -> Fe2O3,"[Comp: Fe1, Comp: O2]",[Comp: Fe2 O3],-8.484873655000001,Oxide only,2 Fe + 1.5 O2 -> Fe2O3
+3 Fe + 2 O2 -> Fe3O4,"[Comp: Fe1, Comp: O2]",[Comp: Fe3 O4],-11.47137488500001,Oxide only,3 Fe + 2 O2 -> Fe3O4
+FeS + Li2O -> FeO + Li2S,"[Comp: Fe1 S1, Comp: Li2 O1]","[Comp: Fe1 O1, Comp: Li2 S1]",-0.250709465000007,MP-ORIG,FeS + Li2O -> FeO + Li2S
+0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe2 O3]",0.17166317249998642,MP-ORIG,0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3
+0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe3 O4]",0.21737055249995763,MP-ORIG,0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4
+2 FeO + 0.5 O2 -> Fe2O3,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe2 O3],-2.6246692150000115,MP-ORIG,2 FeO + 0.5 O2 -> Fe2O3
+3 FeO + 0.5 O2 -> Fe3O4,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe3 O4],-2.533254454999998,MP-ORIG,3 FeO + 0.5 O2 -> Fe3O4
+0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3,"[Comp: Fe3 O4, Comp: O2]",[Comp: Fe2 O3],-0.9358329116666582,MP-ORIG,0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3
+Fe + 0.5 O2 -> FeO,"[Comp: Fe1, Comp: O2]",[Comp: Fe1 O1],-3.455341534999995,MP-ORIG,Fe + 0.5 O2 -> FeO
+2 Fe + 1.5 O2 -> Fe2O3,"[Comp: Fe1, Comp: O2]",[Comp: Fe2 O3],-9.535352285000002,MP-ORIG,2 Fe + 1.5 O2 -> Fe2O3
+3 Fe + 2 O2 -> Fe3O4,"[Comp: Fe1, Comp: O2]",[Comp: Fe3 O4],-12.899279060000012,MP-ORIG,3 Fe + 2 O2 -> Fe3O4
+FeS + Li2O -> FeO + Li2S,"[Comp: Fe1 S1, Comp: Li2 O1]","[Comp: Fe1 O1, Comp: Li2 S1]",0.3002905349999949,MP-2020,FeS + Li2O -> FeO + Li2S
+0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe2 O3]",-0.1038368275000181,MP-2020,0.5 FeS2 + 1.5 FeO -> FeS + 0.5 Fe2O3
+0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4,"[Comp: Fe1 S2, Comp: Fe1 O1]","[Comp: Fe1 S1, Comp: Fe3 O4]",-0.05812944750004334,MP-2020,0.5 FeS2 + 2 FeO -> FeS + 0.5 Fe3O4
+2 FeO + 0.5 O2 -> Fe2O3,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe2 O3],-2.6623792150000156,MP-2020,2 FeO + 0.5 O2 -> Fe2O3
+3 FeO + 0.5 O2 -> Fe3O4,"[Comp: Fe1 O1, Comp: O2]",[Comp: Fe3 O4],-2.570964455000002,MP-2020,3 FeO + 0.5 O2 -> Fe3O4
+0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3,"[Comp: Fe3 O4, Comp: O2]",[Comp: Fe2 O3],-0.9484029116666619,MP-2020,0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3
+Fe + 0.5 O2 -> FeO,"[Comp: Fe1, Comp: O2]",[Comp: Fe1 O1],-2.942051534999994,MP-2020,Fe + 0.5 O2 -> FeO
+2 Fe + 1.5 O2 -> Fe2O3,"[Comp: Fe1, Comp: O2]",[Comp: Fe2 O3],-8.546482285000003,MP-2020,2 Fe + 1.5 O2 -> Fe2O3
+3 Fe + 2 O2 -> Fe3O4,"[Comp: Fe1, Comp: O2]",[Comp: Fe3 O4],-11.397119060000016,MP-2020,3 Fe + 2 O2 -> Fe3O4
