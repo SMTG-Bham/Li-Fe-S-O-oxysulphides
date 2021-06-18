@@ -1,5 +1,7 @@
 ## Data for paper "Predicting lithium iron oxysulphides for battery cathodes"
 
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.4977232.svg)](http://dx.doi.org/10.5281/zenodo.4977232)
+
 Content of the repository
 
 - `search-data` contains the relaxed structures sampled by ab initio random structure searching (AIRSS).
