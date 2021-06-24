@@ -1,5 +1,7 @@
 ## Data for paper "Predicting lithium iron oxysulphides for battery cathodes"
 
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.4977232.svg)](http://dx.doi.org/10.5281/zenodo.4977232)
+
 Content of the repository
 
 - `search-data` contains the relaxed structures sampled by ab initio random structure searching (AIRSS).
@@ -14,6 +16,7 @@ Content of the repository
 ## Importing data into a new AiiDA Database
 
 The provenance data stored in the `all-calc-data.aiida` can be imported into a AiiDA database and allow the analysis in the `notebooks` folder to be reproduced.
+This file is hosted by Zenodo and not included in this repository becuase of the size.
 A few dependencies needs to be installed:
 
 - `aiida-core>=1.6.3` is the mean package of the AiiDA framework.
