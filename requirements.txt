@@ -1,7 +1,7 @@
-aiida-core==1.6.3
+aiida-core~=1.6.3
 ase~=3.21
 pymatgen==2020.10.20
-aiida-vasp~=2.0.1
+aiida-vasp~=2.1.0
 tqdm
 pandas
 seaborn
